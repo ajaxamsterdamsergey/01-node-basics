@@ -1,0 +1,30 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaxamsterdamsergey/01-node-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaxamsterdamsergey/01-node-basics/issues"
+  },
+  "homepage": "https://github.com/ajaxamsterdamsergey/01-node-basics#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "shortid": "^2.2.15",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
